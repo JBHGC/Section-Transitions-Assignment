@@ -1,0 +1,91 @@
+@keyframes scrollon {
+  from {
+    opacity: 0;
+  }
+} to {
+  opacity: 1;
+}
+
+.show {
+  animation-name: scrollon;
+  animation-duration: 0.6s;
+}
+@keyframes scrolloff {
+  from {
+    opacity: 1;
+  }
+} to {
+  opacity: 0;
+}
+
+.unShow {
+  animation-name: scrollon;
+  animation-duration: 0.6s;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.grid-container1 {
+  grid-template-columns: auto auto auto;
+  display: grid;
+  grid-gap: 1%;
+  height: 487px;
+  background-color: lightblue;
+}
+
+.kirbyUpB {
+  width: 100%;
+  margin-top: 75px;
+  margin-left: 15px;
+}
+
+.kirbyPara {
+  font-family: sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 120px;
+
+}
+
+.grid-container2 {
+  display: grid;
+  grid-gap: 1%;
+  justify-content: center;
+  background-color: yellow;
+  height: 487px;
+}
+.kirbySideB {
+  margin-top: 30px;
+}
+
+.smallerPTag {
+  text-align: center;
+  font-size: 11px;
+  margin: 1px;
+  margin-bottom: 8px;
+}
+
+.grid-container3 {
+  grid-template-columns: auto auto auto;
+  display: grid;
+  grid-gap: 1%;
+  height: 487px;
+  background-color: lightgreen;
+}
+
+.kirbyNeutralB {
+  margin-top: 50px;
+}
+
+.fQuote {
+  background-color: pink;
+  height: 150px;
+}
+
+.hi {
+  text-align: center;
+  font-size: 50px;
+
+}
